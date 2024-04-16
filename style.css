@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto Mono';
+    font-size: 18px;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url('./data-engineer.jpg') no-repeat center/ cover;
+    color: red;
+
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .first h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    max-width: 40%;
+    
+}
+
+.container .first h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    max-width: 40%;
+    
+}
+
+.container .first p{
+    font-weight: bold;
+    max-width: 60%;
+}
